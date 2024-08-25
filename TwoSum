@@ -13,11 +13,10 @@ int* twoSum(int* nums, int numSize, int target, int* returnSize)
                 array[0]=i;
                 array[1]=j;
                 return array;
-                break;
             }
         }
         if(j!=numSize)
-        break;
+        return -1;
     }
-    return -1;
+    
 }
