@@ -8,6 +8,6 @@ public:
                 return reversedString.substr(0, i) + s;
             }
         }
-        return reversedString + s;a
+        return reversedString + s;
     }
 };
